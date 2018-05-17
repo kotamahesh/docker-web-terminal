@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM node:0.10.30
 MAINTAINER Vangie Du from Coding IDE Team <duwan@coding.net>
 
 EXPOSE 5000
