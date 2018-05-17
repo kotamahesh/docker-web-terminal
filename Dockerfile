@@ -9,5 +9,4 @@ RUN apt-get  update \
     && rm -rf /var/lib/apt/lists/* \
     && rm -rf /var/cache/apt/archives/*
 RUN npm install && node_modules/.bin/bower install --allow-root
-
 CMD npm start
